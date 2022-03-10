@@ -1,0 +1,22 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "Available server",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/engaudy/API-Server.git"
+  },
+  "author": "Audy Chavarria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/engaudy/API-Server/issues"
+  },
+  "homepage": "https://github.com/engaudy/API-Server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  }
+}
