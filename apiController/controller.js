@@ -1,11 +1,6 @@
 const express = require('express');
 const router = express.Router();
-
-const data =[
-    {id:1, name: 'Cure Fred', country: 'USA', phone: '3145432343', active: true, createdOn: new Date()},
-    {id:2, name: 'Lee Simon', country: 'USA', phone: '3165421209', active: false, createdOn: new Date()},
-    {id:3, name: 'Sean Simon', country: 'Canada', phone: '3094567324', active: true, createdOn: new Date()}
-]
+const data = require('../apiModel/data')
 
 router.get('/', function(req,res){
     res.status(200).json(data);

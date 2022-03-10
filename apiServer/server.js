@@ -2,7 +2,7 @@ const http = require('http');
 const express = require('express');
 let cors = require('cors');
 
-const itemRouter = require('./routes/booking');
+const itemRouter = require('../apiController/controller');
 
 const app = express();
 app.use(express.json());
