@@ -17,10 +17,10 @@ Json:
     "phone": "3112334564",
     "active": true
 }
-## `PUT: http://localhost:3000/booking`
+## `PUT: http://localhost:3000/booking/{id}`
 Json:
 {
     "name": "Edited FirstName",
     "country": "Japan"
 }
-## `PUT: http://localhost:3000/booking/{id}`
+## `DELETE: http://localhost:3000/booking/{id}`
