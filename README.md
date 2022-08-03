@@ -1,7 +1,7 @@
 # API-Server
 It was created to help you to understand how we can use api testing
 ## Dependencies
-`npm instal`
+`npm install`
 ## Running Server
 `npm start`
 ## To validate the CRUD you can use POSTMAN

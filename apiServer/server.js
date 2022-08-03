@@ -6,7 +6,7 @@ const itemRouter = require('../apiController/controller');
 
 const app = express();
 app.use(express.json());
-app.use('/booking' , itemRouter);
+app.use('/contracts' , itemRouter);
 app.use('/', function(res){
     res.send('API testing is working');
 })
